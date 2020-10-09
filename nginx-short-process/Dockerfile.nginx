@@ -1,0 +1,6 @@
+FROM nginx
+
+LABEL maintainer="lzl@outlook.com"
+
+ADD app/ /app
+ADD nginx.conf /etc/nginx/nginx.conf
